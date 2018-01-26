@@ -41,6 +41,6 @@ body {
      text-align: center;
 }
 
-jumbotron p.active {
+.jumbotron p.active {
      color: #1f6ddd;
 }

@@ -28,7 +28,7 @@ function initializePage() {
 	$("#testjs").click(function(e) {
 		$('.jumbotron h1').text("Javascript has taken control");
 		$("#testjs").text("Please wait...")
-		$("#testjs").addClass("active");
+		$(".jumbotron p").addClass("active");
 		$("#testjs").toggleClass("active");
 	});
 
